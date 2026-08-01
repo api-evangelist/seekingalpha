@@ -1,0 +1,10 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/* on seekingalpha.com
+host: https://seekingalpha.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+notes: No /.well-known discovery documents were served (all probed paths returned 404). Negative result recorded for auditability.

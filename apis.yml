@@ -1,8 +1,24 @@
 aid: seekingalpha
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seekingalpha.png
 name: SeekingAlpha
-description: 'SeekingAlpha is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: social. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Seeking Alpha is a crowd-sourced investment research and analysis platform
+  for stock-market investors, providing breaking financial news, analyst articles,
+  earnings-call transcripts, dividend and quant ratings, stock and ETF screeners,
+  portfolio tracking, and subscription research services (Premium, Pro, and Alpha
+  Picks). Backed by Accel and headquartered in Israel, it serves individual investors
+  worldwide. Added to the API Evangelist network as a company profile; no public first-party
+  developer API is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/seekingalpha/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Social
+- Finance
+- Investing
+- Stock Market
+- Financial Research
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://seekingalpha.com
+  url: https://seekingalpha.com
+- type: Support
+  url: https://help.seekingalpha.com/
+- type: TermsOfService
+  url: https://about.seekingalpha.com/terms
+- type: PrivacyPolicy
+  url: https://about.seekingalpha.com/privacy
+- type: DomainSecurity
+  url: security/seekingalpha-domain-security.yml
+- type: LLMsTxt
+  url: llms/seekingalpha-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
